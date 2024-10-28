@@ -1,0 +1,213 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    align-items: center;
+
+}
+
+.conteiner1 {
+    word-spacing: 20px;
+    font-size: 30px;
+}
+
+.conyteiner2 a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.conteiner1 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.about {
+    height: 50px;
+    padding-top: 20px;
+}
+
+.about a {
+    text-decoration: none;
+    padding-left: 50px;
+    font-size: 20px;
+    color: black;
+}
+
+.photo {
+    display: grid;
+    place-content: center;
+    padding: 10px;
+}
+
+.photo img {
+    width: 1450px;
+}
+
+.text {
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 400px;
+    padding-right: 400px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.text p {
+    font-size: larger;
+}
+
+.girls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.one {
+    padding: 120px;
+    width: 700px;
+}
+
+.two {
+    width: 920px;
+    height: 700px;
+    padding-top: 170px;
+    background-color: rgb(231, 231, 128);
+}
+
+.big {
+    padding-top: 100px;
+}
+
+iframe {
+    padding-top: 60px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.author {
+    padding-left: 400px;
+}
+
+.conteiner4 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 120px;
+}
+
+.bigphoto {
+    padding: 120px;
+}
+
+.photos3 {
+    padding: 120px;
+}
+
+.conteiner5 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 120px;
+}
+
+.container {
+    display: grid;
+    margin-top: 120px;
+    margin-left: 120px;
+    grid-template-columns: 1fr 1fr;
+    background-color: cornflowerblue;
+    width: 1650px;
+    height: 700px;
+}
+
+.firth img {
+    width: 825px;
+    height: 700px;
+}
+
+.second {
+    padding: 150px;
+    display: grid;
+    place-content: center;
+    color: white;
+}
+
+.second a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 500px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 120px;
+    font-size: 25px;
+}
+.section h4 {
+    font-weight: bold;
+}
+.section a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+.icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+.icons img {
+    width: 24px;
+    height: 24px;
+}
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+.newsletter button {
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.links a {
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.birge {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
